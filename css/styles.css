@@ -53,55 +53,121 @@ column-container > * {
 /*///////ABOUT BUTTON///////*/
 .about-team button {
   background-color: #69A87D;
-  color: #CCC;
+  color: lightgrey;
   font-family: "Palatino";
   position: absolute;
   top: 65px;
   left: 35%;
   padding: 15px 25px;
-  font-size: 11px; }
+  font-size: 10px;
+  border: 3px solid lightgrey; }
 
 .about-team {
-  margin-top: 75px;
   text-align: center; }
 
 /*/////JUMBOTRON/////*/
 .jumbotron {
   text-align: center;
-  margin-top: 120px;
-  padding: 0px;
-  margin-left: 40px;
-  margin-right: 40px; }
+  margin-top: 80px;
+  padding: 25px 0px 25px 10%;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 25px; }
 
 .jumbotron strong {
-  font-size: 25px; }
+  font-size: 20px; }
 
-.container {
-  font-size: 0;
-  display: block;
-  width: 100%; }
-
-.row {
-  font-size: medium;
-  display: inline-block;
-  width: 75%; }
-
-/*EMPLOYEES MQ*/
 .employees {
   text-align: center;
   padding: 0;
   max-width: 85%;
-  background-color: #FFFFFF; }
+  background-color: #69a87d; }
+
+.employees span {
+  color: limegreen; }
 
 .employees h3 {
   font-size: 15px; }
 
-.employees span {
-  color: #68DE88; }
-
 .employees p {
   margin-bottom: 4px;
   font-size: 10px; }
+
+.employees img {
+  width: 100%; }
+
+.mightybackground-image {
+  display: none; }
+
+/*/////EMPLOYEE GRANTS///////*/
+.grants-container {
+  color: white;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+
+.grants-container h2 {
+  margin-bottom: 20px; }
+
+.employee-projects {
+  max-width: 90%;
+  background-color: #69A87D;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 24px;
+  margin-left: 40px;
+  color: white;
+  font-size: 15px;
+  text-align: center; }
+
+.employee-projects h1 {
+  font-size: 14px;
+  color: grey; }
+
+.employee-projects p {
+  color: lightgrey;
+  font-size: 10px; }
+
+.employee-projects img {
+  max-width: 600px; }
+
+.bottom-Jumbotron {
+  background-image: url("../images/assets/solrod-drawingboard-background.jpg");
+  background-size: cover;
+  min-height: 300px;
+  color: white;
+  position: relative; }
+
+.bottom_feeder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.join-btn {
+  text-align: center;
+  left: 5%;
+  position: absolute;
+  top: 40%;
+  width: 85%;
+  padding: 30px 0;
+  background-color: #6B809D;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px; }
+
+footer {
+  background-color: white; }
+
+.social {
+  color: #BCBCBC;
+  font-size: 50px; }
+
+.social i {
+  padding: 30px 0px 30px 20px; }
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -109,52 +175,80 @@ column-container > * {
     background: #00000;
     top: 0;
     width: 100%;
-    border-radius: 0px; } }
-/***************************************/
-/*////SECOND JUMBOTRON-MQ/////*/
-.mightybackground-image {
-  display: block;
-  position: relative; }
+    z-index: 1;
+    border-radius: 3px;
+    left: 0px;
+    background-color: black;
+    color: red; }
 
-.background-img {
-  width: 100%;
-  margin-top: 75px;
-  border-top: solid 2px #FFFFFF; }
+  .hamburger {
+    display: none; }
 
-.smighty-img {
-  position: absolute;
-  top: 30%;
-  width: 35%;
-  left: 30%; }
+  .arrowdown,
+  .examples,
+  .pricing,
+  .tours,
+  .login,
+  .help,
+  .blog {
+    display: none;
+    vertical-align: top;
+    font-size: 15px; }
 
-/*/////EMPLOYEE GRANTS-MQ///////*/
-.grants-container {
-  color: #FFFFFF;
-  text-align: center;
-  padding-left: 28%;
-  padding-right: 28%;
-  padding-top: 10%;
-  padding-bottom: 10%; }
+  .log {
+    margin: 2px 2px 45px 2px; }
 
-.grants-container h2 {
-  font-size: 40px;
-  margin-bottom: 20px; }
+  .about-team button {
+    margin-left: auto;
+    margin-top: 70px;
+    position: static; }
 
-.employee-projects {
-  max-width: 90%;
-  background-color: #76A67F;
-  text-align: center;
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 24px;
-  margin-left: 40px;
-  color: #ccc;
-  font-size: 12px; }
+  .container {
+    padding-bottom: 30px;
+    text-align: center; }
 
-/*CALL-TO-ACTION MQ*/
-.call-to-action {
-  top: 35%;
-  left: 35%;
-  width: 35%; }
+  .jumbotron {
+    width: 100%; }
+
+  .jumb0tron p {
+    max-width: 75%;
+    margin-left: 15%;
+    color: grey; }
+
+  .employees {
+    background-color: #69A87D;
+    max-width: 85%;
+    text-align: center;
+    padding: 0px; }
+
+  .employees h3 {
+    font-size: 15px; }
+
+  .employees span {
+    color: limegreen; }
+
+  .mightybackground-image {
+    display: block;
+    position: relative; }
+
+  .background-img {
+    width: 100%;
+    margin: 65px 0px 0px 0px; }
+
+  .smighty-img {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 40%; }
+
+  .grants-container {
+    text-align: center;
+    padding: 25px 5px 35px 5px;
+    margin-bottom: 10px; }
+
+  .join-btn {
+    width: 40%;
+    left: 30%;
+    right: 30%; } }
 
 /*# sourceMappingURL=styles.css.map */
