@@ -63,7 +63,7 @@ column-container > * {
   background-color: #fff; }
 
 .about-container h1 {
-  color: red;
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 45px; }
@@ -168,9 +168,6 @@ footer {
   font-size: medium; }
 
 @media screen and (min-width: 768px) {
-  .about-container h1 {
-    color: blue; }
-
   .navbar {
     top: 0;
     width: 100%;
@@ -233,7 +230,8 @@ footer {
     margin-left: 9%; }
 
   .about-container h1 {
-    font-size: 75px; }
+    font-size: 75px;
+    color: black; }
 
   .employees {
     max-width: 75%;
